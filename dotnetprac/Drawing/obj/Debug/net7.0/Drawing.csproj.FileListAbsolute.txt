@@ -1,0 +1,12 @@
+G:\dotnetD_O\Day3\dotnetprac\Drawing\bin\Debug\net7.0\Drawing.deps.json
+G:\dotnetD_O\Day3\dotnetprac\Drawing\bin\Debug\net7.0\Drawing.dll
+G:\dotnetD_O\Day3\dotnetprac\Drawing\bin\Debug\net7.0\Drawing.pdb
+G:\dotnetD_O\Day3\dotnetprac\Drawing\obj\Debug\net7.0\Drawing.csproj.AssemblyReference.cache
+G:\dotnetD_O\Day3\dotnetprac\Drawing\obj\Debug\net7.0\Drawing.GeneratedMSBuildEditorConfig.editorconfig
+G:\dotnetD_O\Day3\dotnetprac\Drawing\obj\Debug\net7.0\Drawing.AssemblyInfoInputs.cache
+G:\dotnetD_O\Day3\dotnetprac\Drawing\obj\Debug\net7.0\Drawing.AssemblyInfo.cs
+G:\dotnetD_O\Day3\dotnetprac\Drawing\obj\Debug\net7.0\Drawing.csproj.CoreCompileInputs.cache
+G:\dotnetD_O\Day3\dotnetprac\Drawing\obj\Debug\net7.0\Drawing.dll
+G:\dotnetD_O\Day3\dotnetprac\Drawing\obj\Debug\net7.0\refint\Drawing.dll
+G:\dotnetD_O\Day3\dotnetprac\Drawing\obj\Debug\net7.0\Drawing.pdb
+G:\dotnetD_O\Day3\dotnetprac\Drawing\obj\Debug\net7.0\ref\Drawing.dll

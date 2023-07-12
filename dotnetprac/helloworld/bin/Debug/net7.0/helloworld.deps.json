@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "helloworld/1.0.0": {
+        "dependencies": {
+          "Drawing": "1.0.0",
+          "ImplLib": "1.0.0",
+          "SpecificationLib": "1.0.0"
+        },
+        "runtime": {
+          "helloworld.dll": {}
+        }
+      },
+      "Drawing/1.0.0": {
+        "runtime": {
+          "Drawing.dll": {}
+        }
+      },
+      "ImplLib/1.0.0": {
+        "dependencies": {
+          "SpecificationLib": "1.0.0"
+        },
+        "runtime": {
+          "ImplLib.dll": {}
+        }
+      },
+      "SpecificationLib/1.0.0": {
+        "runtime": {
+          "SpecificationLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "helloworld/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Drawing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImplLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpecificationLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

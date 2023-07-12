@@ -1,0 +1,12 @@
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\bin\Debug\net7.0\SpecificationLib.deps.json
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\bin\Debug\net7.0\SpecificationLib.dll
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\bin\Debug\net7.0\SpecificationLib.pdb
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\obj\Debug\net7.0\SpecificationLib.csproj.AssemblyReference.cache
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\obj\Debug\net7.0\SpecificationLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\obj\Debug\net7.0\SpecificationLib.AssemblyInfoInputs.cache
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\obj\Debug\net7.0\SpecificationLib.AssemblyInfo.cs
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\obj\Debug\net7.0\SpecificationLib.csproj.CoreCompileInputs.cache
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\obj\Debug\net7.0\SpecificationLib.dll
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\obj\Debug\net7.0\refint\SpecificationLib.dll
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\obj\Debug\net7.0\SpecificationLib.pdb
+G:\dotnetD_O\Day3\dotnetprac\SpecificationLib\obj\Debug\net7.0\ref\SpecificationLib.dll
