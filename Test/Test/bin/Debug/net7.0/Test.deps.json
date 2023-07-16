@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Test/1.0.0": {
+        "dependencies": {
+          "HrLib": "1.0.0",
+          "TaxLib": "1.0.0"
+        },
         "runtime": {
           "Test.dll": {}
+        }
+      },
+      "HrLib/1.0.0": {
+        "dependencies": {
+          "TaxLib": "1.0.0"
+        },
+        "runtime": {
+          "HrLib.dll": {}
+        }
+      },
+      "TaxLib/1.0.0": {
+        "runtime": {
+          "TaxLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HrLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaxLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

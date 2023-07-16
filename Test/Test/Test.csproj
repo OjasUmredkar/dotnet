@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HrLib\HrLib.csproj" />
+    <ProjectReference Include="..\TaxLib\TaxLib.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,12 @@
+C:\Users\OJAS\source\repos\Test\TaxLib\bin\Debug\net7.0\TaxLib.deps.json
+C:\Users\OJAS\source\repos\Test\TaxLib\bin\Debug\net7.0\TaxLib.dll
+C:\Users\OJAS\source\repos\Test\TaxLib\bin\Debug\net7.0\TaxLib.pdb
+C:\Users\OJAS\source\repos\Test\TaxLib\obj\Debug\net7.0\TaxLib.csproj.AssemblyReference.cache
+C:\Users\OJAS\source\repos\Test\TaxLib\obj\Debug\net7.0\TaxLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OJAS\source\repos\Test\TaxLib\obj\Debug\net7.0\TaxLib.AssemblyInfoInputs.cache
+C:\Users\OJAS\source\repos\Test\TaxLib\obj\Debug\net7.0\TaxLib.AssemblyInfo.cs
+C:\Users\OJAS\source\repos\Test\TaxLib\obj\Debug\net7.0\TaxLib.csproj.CoreCompileInputs.cache
+C:\Users\OJAS\source\repos\Test\TaxLib\obj\Debug\net7.0\TaxLib.dll
+C:\Users\OJAS\source\repos\Test\TaxLib\obj\Debug\net7.0\refint\TaxLib.dll
+C:\Users\OJAS\source\repos\Test\TaxLib\obj\Debug\net7.0\TaxLib.pdb
+C:\Users\OJAS\source\repos\Test\TaxLib\obj\Debug\net7.0\ref\TaxLib.dll

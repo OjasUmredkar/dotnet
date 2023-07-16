@@ -8,6 +8,6 @@ namespace TaxCal
 {
    
 
-        public delegate void TaxOperation();
+        public delegate double TaxManager(double amt);
     
 }

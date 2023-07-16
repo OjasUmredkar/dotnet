@@ -34,7 +34,7 @@ namespace HrLib
 
         public override double ComputerPay()
         {
-            return base.ComputerPay()+bonus*hoursWorked;
+            return base.ComputerPay()+bonus;
         }
 
         public override string? ToString()
