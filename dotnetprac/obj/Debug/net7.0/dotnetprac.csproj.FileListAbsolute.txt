@@ -1,5 +1,0 @@
-G:\dotnetD_O\Day3\dotnetprac\obj\Debug\net7.0\dotnetprac.csproj.AssemblyReference.cache
-G:\dotnetD_O\Day3\dotnetprac\obj\Debug\net7.0\dotnetprac.GeneratedMSBuildEditorConfig.editorconfig
-G:\dotnetD_O\Day3\dotnetprac\obj\Debug\net7.0\dotnetprac.AssemblyInfoInputs.cache
-G:\dotnetD_O\Day3\dotnetprac\obj\Debug\net7.0\dotnetprac.AssemblyInfo.cs
-G:\dotnetD_O\Day3\dotnetprac\obj\Debug\net7.0\dotnetprac.csproj.CoreCompileInputs.cache
