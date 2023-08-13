@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\dotnetlab\EmployeeCrud
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/dotnetlab/EmployeeCrud/Views/Home/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/dotnetlab/EmployeeCrud/Views/Home/GetEmployeeList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRFbXBsb3llZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

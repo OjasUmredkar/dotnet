@@ -87,6 +87,29 @@ namespace DAL
             return status;
         }
 
+
+
+        public static bool DeleteEmployee( int id)
+        {
+            bool status = false;
+            MySqlConnection conn=new MySqlConnection();
+            conn.ConnectionString= connection;
+            try {
+                conn.Open();
+                string query = "delete from employees where id=" + id;
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.ExecuteNonQuery();
+            }catch(Exception e )
+            {
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return status;
+        }
+
     }
 
 }
