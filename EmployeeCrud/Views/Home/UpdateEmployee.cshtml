@@ -1,0 +1,47 @@
+﻿@using BOL;
+
+@{
+    Employee emp = (Employee)ViewData["emp"];
+}
+
+
+
+<h1 align="center">Updating Employee</h1>
+
+
+<form action="/Home/UpdateEmployeeById" method="post">
+    <div class="mb-3">
+        <label for="id" class="form-label">ID</label>
+        <input type="text" class="form-control" id="id" name="id" value=@emp.Id  required>
+    </div>
+    <div class="mb-3">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" name="firstName" value=@emp.FirstName required>
+    </div>
+    <div class="mb-3">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName" name="lastName" value=@emp.LastName required>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="text" class="form-control" id="email" name="email" value= @emp.Email  required>
+    </div>
+    <div class="mb-3">
+        <label for="salary" class="form-label">Salary</label>
+        <input type="text" class="form-control" id="salary" name="salary" value= @emp.Salary  required>
+    </div>
+    <div class="mb-3">
+        <label for="dob" class="form-label">Date of Birth</label>
+        <input type="date" class="form-control" id="dob" name="dob" value=@emp.Dob.ToString("yyyy-MM-dd") required>
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" name="password" value=@emp.Password required>
+    </div>
+    <div class="mb-3">
+        <label for="dept" class="form-label">Department</label>
+        <input type="text" class="form-control" id="dept" name="dept" value=@emp.Dept required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

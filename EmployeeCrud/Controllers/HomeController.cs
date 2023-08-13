@@ -57,12 +57,33 @@ namespace EmployeeCrud.Controllers
         }
 
         [HttpPost]
-       public IActionResult Delete(int delId) {
+        public IActionResult Delete(int delId) {
 
             DBManager.DeleteEmployee(delId);
 
             return RedirectToAction("GetEmployeeList");
-        
+
+        }
+
+        public IActionResult Update()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult UpdateEmployee(int id)
+        {
+            ViewData["emp"] = DBManager.GetEmployee(id);
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult UpdateEmployeeById(string id, string firstName, string lastName, string email, string salary, string dob, string password, string dept)
+        {
+            Employee emp = new Employee(int.Parse(id), firstName, lastName, email, Double.Parse(salary), DateTime.Parse(dob), password, Enum.Parse<Department>(dept));
+            DBManager.UpdateEmployeeById(emp);
+            
+            return RedirectToAction("GetEmployeeList");
         }
         
 

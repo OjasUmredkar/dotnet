@@ -110,6 +110,77 @@ namespace DAL
             return status;
         }
 
+
+        public static Employee GetEmployee(int id)
+        {
+            Employee emp = null;
+            MySqlConnection conn = new MySqlConnection();
+            conn.ConnectionString = connection;
+            try
+            {
+                conn.Open();
+               
+                string query = "select * from employees where id=" + id;
+               
+                MySqlCommand cmd = new MySqlCommand(query,conn);
+                
+                
+                
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    int empid = int.Parse(reader["id"].ToString());
+                    string firstName = reader["firstname"].ToString();
+                    string lastname = reader["lastname"].ToString();
+                    string email = reader["email"].ToString();
+                    double salary = Double.Parse(reader["salary"].ToString());
+                    DateTime dob = DateTime.Parse(reader["dob"].ToString());
+                    string password = reader["password"].ToString();
+                    Department dept = Enum.Parse<Department>(reader["dept"].ToString());
+
+                    emp = new Employee(empid, firstName, lastname, email, salary, dob, password, dept);
+                }
+
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return emp;
+        }
+
+        public static bool UpdateEmployeeById(Employee emp)
+        {
+            bool status = false;
+            string query = "UPDATE employees SET firstname='" + emp.FirstName + "', lastname='" + emp.LastName + "', email='" + emp.Email + "', salary=" + emp.Salary + ", dob='" + emp.Dob.ToString("yyyy/MM/dd") + "', password='" + emp.Password + "', dept='" + emp.Dept.ToString() + "' WHERE id=" + emp.Id;
+
+            MySqlConnection conn = new MySqlConnection();
+            conn.ConnectionString = connection;
+            try
+            {
+                
+                conn.Open();
+                MySqlCommand cmd = new MySqlCommand(query,conn);
+                cmd.ExecuteNonQuery();
+                status = true;
+
+            }catch(Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return status;
+        }
+
     }
 
 }
